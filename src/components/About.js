@@ -1,4 +1,4 @@
-import uniqid from "uniqid";
+import githubIcon from "../images/github.png";
 
 export default function About(props) {
   return (
@@ -9,17 +9,15 @@ export default function About(props) {
         experience making projects utilizing technologies like JavaScript,
         React, and Firebase.
       </p>
-      {props.links ? (
-        <div className="aboutLinks">
-          {props.links.map((link) => {
-            return (
-              <button className={link.name} key={uniqid()}>
-                e
-              </button>
-            );
-          })}
-        </div>
-      ) : null}
+
+      <div className="aboutLinks">
+        <button
+          className="githubLink"
+          onClick={() => {
+            window.open(`https://github.com/oliverowen2210?tab=repositories`);
+          }}
+        ></button>
+      </div>
     </div>
   );
 }

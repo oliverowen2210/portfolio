@@ -64,9 +64,26 @@ header {
   gap: 10px;
 }
 
+.githubLink,
+.externalLink {
+  width: 48px;
+  height: 48px;
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.githubLink {
+  background-image: url("./images/github.png");
+}
+
+.externalLink {
+  background-image: url("./images/external.png");
+}
+
 .aboutLinks button {
   border: 0;
-  background: none;
+  background-color: white;
   cursor: pointer;
   color: black;
   font-weight: bold;
@@ -103,7 +120,7 @@ main {
 }
 
 .projectInfo {
-  width: 80%;
+  width: 85%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -115,12 +132,18 @@ main {
 }
 
 .projectButton {
-  margin-left: 15px;
-  background: none;
+  margin-left: 20px;
+  background-color: white;
   border: none;
   font-weight: bold;
   font-size: 1.6rem;
   cursor: pointer;
+}
+
+.projectButton.githubLink,
+.projectButton.externalLink {
+  width: 32px;
+  height: 32px;
 }
 
 .projectDescription {

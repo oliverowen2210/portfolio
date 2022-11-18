@@ -22,21 +22,17 @@ export default function ProjectCard(props) {
           <h3 className="projectName">{props.project.name}</h3>
           <div className="projectLinks">
             <button
-              className="projectRepo projectButton"
+              className="projectRepo projectButton githubLink"
               onClick={() => {
                 window.open(`${props.project.links.github}`);
               }}
-            >
-              G
-            </button>
+            ></button>
             <button
-              className="projectLive projectButton"
+              className="projectLive projectButton externalLink"
               onClick={() => {
                 window.open(`${props.project.links.live}`);
               }}
-            >
-              L
-            </button>
+            ></button>
           </div>
         </div>
         <p className="projectDescription">{props.project.description}</p>
