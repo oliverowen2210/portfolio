@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "./static/css/main.3ca85398.css",
+    "main.js": "./static/js/main.272fb7e1.js",
+    "static/media/battleship.png": "./static/media/battleship.718205bf8f6fb0e5e959.png",
+    "static/media/waldo.png": "./static/media/waldo.02609559f2616ddcd6b8.png",
+    "index.html": "./index.html",
+    "main.3ca85398.css.map": "./static/css/main.3ca85398.css.map",
+    "main.272fb7e1.js.map": "./static/js/main.272fb7e1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ca85398.css",
+    "static/js/main.272fb7e1.js"
+  ]
+}
