@@ -1,15 +1,3 @@
-/**expects project objects to look something like this:
-* {
-   image: url;
-   name: My project,
-   links: {
-      github: repo url,
-      live: live url
-   },
-   description: description
-} 
-*/
-
 export default function ProjectCard(props) {
   return (
     <div className="projectCard">

@@ -1,16 +1,18 @@
 import waldoImage from "./images/waldo.png";
 import battleshipImage from "./images/battleship.png";
+import twitterCloneImage from "./images/twitter.png";
 
 let ProjectData = [
   {
-    name: "Where's Waldo",
-    image: waldoImage,
+    name: "Twitter Clone",
+    image: twitterCloneImage,
     links: {
-      github: "https://github.com/oliverowen2210/where-s-waldo",
-      live: "https://oliverowen2210.github.io/where-s-waldo",
+      github: "https://github.com/oliverowen2210/twitter-clone",
+      live: "https://twitter-clone-production-c7a4.up.railway.app/",
     },
+
     description:
-      "A photo tagging game/app based on Where's Waldo. Uses Firebase as a backend to store character data and player scores.",
+      "Un clon de Twitter creado con ReactJS, Tailwind y el BaaS no relacional Firebase.",
   },
   {
     name: "Battleship",
@@ -21,7 +23,17 @@ let ProjectData = [
     },
 
     description:
-      "Recreation of Battleship with vanilla CSS and JavaScript. Supports one human and one CPU, two human or two CPU players.",
+      "Una recreacion del juego de mesa Battleship utilizando puro JavaScript y CSS.",
+  },
+  {
+    name: "Where's Waldo",
+    image: waldoImage,
+    links: {
+      github: "https://github.com/oliverowen2210/where-s-waldo",
+      live: "https://oliverowen2210.github.io/where-s-waldo",
+    },
+    description:
+      "Un juego basado en 'Donde Esta Wally' donde intentas encontrar varios personajes dentro de una imagen.",
   },
 ];
 

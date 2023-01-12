@@ -1,7 +1,7 @@
 export default function Contact() {
   return (
     <div className="contact">
-      <h2>Contact me</h2>
+      <h2>Informacion de Contacto</h2>
       <div className="location">
         <span>🏠</span>
         <div>
