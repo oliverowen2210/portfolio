@@ -1,5 +1,3 @@
-import githubIcon from "../images/github.png";
-
 export default function About(props) {
   return (
     <div className="about">
